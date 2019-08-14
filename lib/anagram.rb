@@ -8,7 +8,7 @@ end
 
 def match(words)
   final_array = []
-  word.chars.sort
+  words
 end
 end
  
