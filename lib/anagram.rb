@@ -7,10 +7,11 @@ def initialize(word)
 end
 
 def match(words)
+  final_array = []
   new_word  = word.chars
   new_word.sort
-  words.map do |item|
-    if item.chars.sort != new_word.sort
+  words.each do |item|
+    if item.chars.sort = new_word.sort
       words.delete("#{item}")
     end
   end
