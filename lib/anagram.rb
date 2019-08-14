@@ -8,15 +8,11 @@ end
 
 def match(words)
   final_array = []
-  words.map do |item|
+  words.each do |item|
     if item.chars.sort == word.chars.sort
-      words.remove(item)
+      final_array << item
     end
   end
-  words
+  final_array
 end
 end
- #words.map do |item|
-    #new_item = item.chars
-#if new_item.sort = new_word.sort
-      #item
