@@ -10,7 +10,7 @@ def match(words)
   new_word  = word.chars
   new_word.sort
   words.map do |item|
-    if "#{item}".char.sort != new_word.sort
+    if item.chars.sort != new_word.sort
       words.remove(item)
     end
   end
