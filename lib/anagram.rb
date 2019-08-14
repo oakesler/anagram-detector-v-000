@@ -7,10 +7,12 @@ def initialize(word)
 end
 
 def match(words)
-  letter_array = []
-  #@word = word
   new_word  = word.chars
   new_word.sort
+  words.map do |item|
+    if item.char.sort != new_word.sort
+      words.remove(item)
+    end
   end
 end
  
