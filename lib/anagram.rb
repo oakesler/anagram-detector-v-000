@@ -10,7 +10,7 @@ def match(words)
   final_array = []
   words.map do |item|
     if item.chars.sort == word.chars.sort
-      words.delete(item)
+      words.unshift(item)
     end
   end
   words
