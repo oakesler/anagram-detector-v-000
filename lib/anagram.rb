@@ -11,7 +11,8 @@ def match(words)
   words.map do |item|
     if item.chars.sort == word.chars.sort
       item
-end
+    end
+  end
 end
  
  #words.map do |item|
