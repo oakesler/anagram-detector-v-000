@@ -9,13 +9,11 @@ end
 def match(words)
   final_array = []
   new_word  = word.chars
-  words.map do |item|
-    new_item = item.chars
-    if new_item.sort = new_word.sort
-      item
-    end
-  end
+  new_word.sort
 end
 end
  
-
+ #words.map do |item|
+    #new_item = item.chars
+#if new_item.sort = new_word.sort
+      #item
