@@ -12,8 +12,8 @@ def match(words)
   new_word.sort
   words.map do |item|
     new_item = item.chars
-    if new_item.sort != new_word.sort
-      words.pop(item)
+    if new_item.sort = new_word.sort
+      item
     end
   end
 end
