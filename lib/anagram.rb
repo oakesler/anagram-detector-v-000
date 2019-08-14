@@ -9,11 +9,8 @@ end
 def match(words)
   letter_array = []
   @word = word
-  new_word  = word.split(',')
-  new_word.each do |letter|
-    letter_array << letter
+  new_word  = word.chars
   end
-end
 end
  
 
