@@ -8,7 +8,9 @@ end
 
 def match(words)
   final_array = []
-  words
+  words.map do |item|
+    if item.chars.sort == word.chars.sort
+      item
 end
 end
  
