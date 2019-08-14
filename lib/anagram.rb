@@ -11,7 +11,7 @@ def match(words)
   new_word.sort
   words.map do |item|
     if item.chars.sort != new_word.sort
-      words.remove(item)
+      words.(item)
     end
   end
 end
