@@ -14,7 +14,7 @@ def match(words)
     end
   end
 end
- 
+end
  #words.map do |item|
     #new_item = item.chars
 #if new_item.sort = new_word.sort
