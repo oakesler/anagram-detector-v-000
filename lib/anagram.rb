@@ -11,7 +11,8 @@ def match(words)
   new_word  = word.chars
   new_word.sort
   words.each do |item|
-    if item.chars.sort = new_word.sort
+    new_item = item.chars
+    if new_item.sort != new_word.sort
       words.delete("#{item}")
     end
   end
