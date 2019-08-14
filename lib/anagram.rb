@@ -10,7 +10,7 @@ def match(words)
   final_array = []
   words.map do |item|
     if item.chars.sort == word.chars.sort
-      
+      return item
     end
   end
 end
