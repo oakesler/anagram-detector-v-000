@@ -10,9 +10,10 @@ def match(words)
   final_array = []
   words.map do |item|
     if item.chars.sort == word.chars.sort
-      return item
+      words.delete(item)
     end
   end
+  words
 end
 end
  #words.map do |item|
